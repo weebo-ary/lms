@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  databaseURL: import.meta.env.VITE_DATABASE_URL,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
+  apiKey: "AIzaSyCTXim9McjpoHnYS7JD_VDyN5oGuzhvAIU",
+  authDomain: "tdf-lms.firebaseapp.com",
+  databaseURL: "https://tdf-lms-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "tdf-lms",
+  storageBucket: "tdf-lms.firebasestorage.app",
+  messagingSenderId: "908600031747",
+  appId: "1:908600031747:web:f59d0f9d7c52514e2d6c36",
 };
 
 const app = initializeApp(firebaseConfig);
